@@ -17,6 +17,11 @@ cd your-folder
 
 # the . is mean the current directory in this case is your project folder
 git clone https://github.com/farookphuket/laravel10x-with-tailwind-css.git .
+
+# rename the file .env.EXAMPLE to .env
+mv .env.EXAMPLE .env 
+
+
 ```
 
 2. now you have to run composer update to create vendor folder.
@@ -32,16 +37,17 @@ composer update
 cd your-project-folder 
 php artisan serve 
 ```
+
 4. open another terminal window 
 
 ```
 cd your-project-folder
-npm run dev
+npm install && npm run dev
 
 ```
 
 5. open your web browser type 
 ```
-http://localhost
+http://localhost:8000
 ```
 > you should see the end result now.
